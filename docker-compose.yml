@@ -46,7 +46,7 @@ services:
 
   feedback-api:
     build:
-      context: ./tsg-9.27-TheAvengers-feedback-api
+      context: ./feedback-api
       dockerfile: Dockerfile
     container_name: feedback-api
     depends_on:
@@ -64,7 +64,7 @@ services:
 
   feedback-analytics-consumer:
     build:
-      context: ./tsg-9.27-TheAvengers-feedback-analytics-consumer
+      context: ./feedback-analytics-consumer
       dockerfile: Dockerfile
     container_name: feedback-analytics-consumer
     depends_on:
@@ -77,7 +77,7 @@ services:
 
   frontend-feedback-ui:
     build:
-      context: ./tsg-9.27-theavengers-frontend-feedback-ui
+      context: ./frontend-feedback-ui
     container_name: frontend-feedback-ui
     ports:
       - "5173:5173"
