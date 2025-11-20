@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/feedback-analytics-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/feedback-api/pom.xml" />
       </list>
     </option>
   </component>
